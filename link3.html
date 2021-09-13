@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" dir="ltr">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Quran</title>
+    <style>
+       body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+       
+       *{
+            box-sizing: border-box;
+        }
+        .bg-image {
+              background-attachment: scroll;
+            /* The image used */
+  background-image: url(media1/pexels-wendy-van-zyl-1112048.jpg);
+  
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  
+  /* Full height */
+  height: 40vh; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*animation*/
+.art img{
+width: 50px;
+animation: bubble 7s linear infinite;
+		}
+		.art{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			position: absolute;
+		    bottom: -10px;
+		}
+		@keyframes bubble{
+			0%{
+				transform: translateY(0);
+				opacity: 0;
+			}
+
+			50%{
+				
+				opacity: 1;
+			}
+
+			70%{
+				
+				opacity: 1;
+			}
+
+			100%{
+				transform: translateY(-80vh);
+				opacity: 0;
+			}
+		}
+		.art img:nth-child(1){
+			animation-delay: 2s
+		}
+		.art img:nth-child(2){
+			animation-delay: 1s
+		}
+		.art img:nth-child(3){
+			animation-delay: 3s
+		}
+		.art img:nth-child(4){
+			animation-delay: 4.5s
+		}
+		.art img:nth-child(5){
+			animation-delay: 5s
+		}
+		.art img:nth-child(6){
+			animation-delay: 2s
+		}
+		.art img:nth-child(7){
+			animation-delay: 6s
+		}.art img:nth-child(8){
+			animation-delay: 3.5s
+		}.art img:nth-child(9){
+			animation-delay: 5s
+		}.art img:nth-child(10){
+			animation-delay: 4s
+		}.art img:nth-child(11){
+			animation-delay: 2s
+		}.art img:nth-child(12){
+			animation-delay: 1s
+		}
+
+/*text*/
+        .bg-text {
+
+  font-weight: bold;
+
+  position: absolute;
+  top: 25vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+   color: #f0ececf1;
+  text-shadow:  -4px 5px 2px #160601;
+}
+/*nav*/
+.bg-light {
+    background-color: #1d2124!important;}
+
+    .btn-outline-success {
+    color: #aa15e1;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3c0461;
+}
+
+ .btn-outline-success:hover {
+background-color: #aa15e1;
+border: #aa15e1; 
+}
+
+/*layout*/
+.container {
+    display: flex;
+}
+
+.container__sidebar {
+    width: 30%;
+}
+
+.container__main {
+    /* Take the remaining width */
+    flex: 1;
+
+    /* Make it scrollable */
+    overflow: auto;
+}
+/*table*/
+.table{
+    float: right;
+    margin: 40px;
+    margin-right: 1vh;
+}
+td{
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.aside{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    height: 255vh;
+    width: 50%;
+    
+}
+.aside , a{
+color: white;
+text-decoration: none;
+}
+/*footer*/
+.footer {
+   height: 10vh;
+   left: 0;
+
+   width: 100%;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+}
+
+.footer , p{
+    text-align: center;
+    margin-top: 40px;
+}
+    </style>
+</head>
+<body>
+   <header>
+        <nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+       <div class="bg-image">
+            <div class="art">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+           <img src="http://www.clker.com/cliparts/m/m/E/h/S/J/islam-hi.png" alt="islam" width="5px" height="40px">
+       </div>
+       </div>
+      
+<div class="bg-text">
+ 
+  <h1 style="font-size:50px; font-family: 'Amiri', serif;">إِنَّا نَحْنُ نَزَّلْنَا ٱلذِّكْرَ وَإِنَّا لَهُۥ لَحَـٰفِظُونَ</h1>
+ 
+</div><br><br><br>
+   </header> 
+   <section>
+       <div class="container">
+           <aside class="container__sidebar">
+        <table class="aside" width="40%" >
+           <tr><td> <a href="home.html"> الرئيسية</a> </td></tr>
+            <tr><td><a href="link1.html">الشيخ عبد الرحمن السديس</a></td></tr> 
+            <tr><td> <a href="link2.html">الشيخ ماهر المعيقلي</a></td></tr>  
+            <tr><td> <a href="link3.html">محمود خليل الحصري</a></td></tr>
+            <tr><td><a href="link4.html">مشاري العفاسي</a></td></tr>
+            <tr><td><a href="link5.html">ناصر القطامي</a></td></tr>
+        </table>
+    </aside>
+    <main class="container__main">
+       <table width="20%"  class="table" >
+           
+<thead>
+    <tr>
+        <td>المقطع الصوتى</td>
+        <td>أسم السورة</td>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td><audio controls>
+  <source src="media 3/001.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الفاتحه</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/002.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة البقره</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/003.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة ال عمران</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/004.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة النساء</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/005.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة المائدة</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/006.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الأنعام</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/007.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الأعراف</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/008.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الأنفال</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/009.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة التوبة</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/010.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة يونس</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/011.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة هود</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/012.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة يوسف</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/013.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الرعد</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/014.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة ابراهيم</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/015.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الحجر</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/016.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة النحل</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/017.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الإسراء</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/018.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الكهف</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/019.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة مريم</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/020.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة طه</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/021.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الأنبياء</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/022.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة الحج</td>
+</tr>
+<tr>
+    <td><audio controls>
+  <source src="media 3/023.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio></td>
+    <td>سورة المؤمنون</td>
+</tr>
+</tbody>    
+    
+    </table>
+    </main>
+    </div>
+</section>
+
+    <footer>
+        <div class="footer">
+        <p>Quran karem</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
